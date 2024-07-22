@@ -144,7 +144,7 @@ class _BufferSliderState extends State<BufferSlider> {
       showValueIndicator: sliderTheme.showValueIndicator ??
           BufferSlider._defaultShowValueIndicator,
       valueIndicatorTextStyle: sliderTheme.valueIndicatorTextStyle ??
-          theme.textTheme.bodyText1!.copyWith(
+          theme.textTheme.bodyLarge!.copyWith(
             color: theme.colorScheme.onPrimary,
           ),
     );
